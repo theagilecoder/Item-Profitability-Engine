@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Item</title>
+    <title>Item Profitability Engine</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   </head>
 
   <body>
+    <div class="container">
+      <nav class="navbar navbar-light navbar-fixed-top bg-faded">
+        <div class="container">
+          <a class="navbar-brand" href="#">e-Sight</a>
+        </div><!-- end navbar container -->  
+      </nav>
+    
     <%= yield %>
+    </div><!-- end main container --> 
   </body>
 </html>
