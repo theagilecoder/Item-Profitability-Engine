@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Skuid:</strong>
+  <%= @sku.skuid %>
+</p>
+
+<p>
+  <strong>Skuname:</strong>
+  <%= @sku.skuname %>
+</p>
+
+<p>
+  <strong>Avgsaleprice:</strong>
+  <%= @sku.avgsaleprice %>
+</p>
+
+<%= link_to 'Edit', edit_sku_path(@sku) %> |
+<%= link_to 'Back', skus_path %>

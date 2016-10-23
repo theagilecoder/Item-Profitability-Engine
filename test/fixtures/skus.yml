@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  skuid: 1
+  skuname: MyString
+  avgsaleprice: 
+
+two:
+  skuid: 1
+  skuname: MyString
+  avgsaleprice: 
